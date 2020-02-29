@@ -80,6 +80,10 @@ input {
   justify-self: center;
 }
 
+.button:hover {
+  background-color: gray;
+}
+
 .last {
   display: flex;
   justify-content: center;

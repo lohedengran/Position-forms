@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/index.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <div class="form-card">
+      <div class="yellow-box">
+        <form>
+          <label class="card">CARD NUMBER</label>
+          <br />
+          <input
+            type="text"
+            name="Card number"
+            placeholder="0000 0000 0000 0000"
+          />
+          <div class="middle">
+            <label for="MM/YY" class="middle__label"
+              >MM/YY
+              <input type="text" for="MM/YY" placeholder="00/00" />
+            </label>
+            <label for="CVV" class="middle__label"
+              >CVV CODE
+              <input type="text" name="CVV" id="" placeholder="000" />
+            </label>
+          </div>
+          <label class="name">CARD HOLDER FULL NAME</label>
+          <br />
+          <input type="text" name="Name" id="" placeholder="Name Surname" />
+        </form>
+        <div class="last">
+          <button class="button">pay now</button>
+        </div>
+      </div>
+      <div class="green-box">
+        <img src="img/pot.png" class="plant" alt="plant" />
+      </div>
+    </div>
+  </body>
 </html>
